@@ -1,0 +1,21 @@
+
+.product__container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px
+}
+
+.product__card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+}
+
+.product__info {
+    color: rgb(8, 0, 255);
+    font-weight: 600;
+    padding: 2px 16px;
+}
