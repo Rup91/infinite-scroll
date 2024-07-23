@@ -9,7 +9,7 @@ function Home() {
     const [loading, setLoading ] = useState(false)
 
     const getProductLists = async ()  => {
-        const productList = await fetch(`https://api.escuelajs.co/api/v1/products?offset=${_offSet}&limit=9`)
+        const productList = await fetch('https............')
         const data = await productList.json();
         setProducts(prev => [...prev, ...data])
         setLoading(false)
